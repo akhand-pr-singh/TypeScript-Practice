@@ -1,11 +1,25 @@
+//======================PRIMITIVE DATATYPES===================
+
+//String
 let greetings:string = 'Hello from Akhand.';
 
-// let num: number = 7;
+//Number 
+// let num: number = 7.2343 (Don't do obvious stuff since, it is assigned a number value. Therefore, it will automatically pick the number functions)
+let num = 7.2343;
 
-// let lowGreet = greetings.toLowerCase();
-// let expNum = num.toExponential(2);
+num.toFixed();
+
+// num = 'Akhand'; (And if you try to assign a string after assigning it a number once, it will start throwing the ts error in that line)
+
+//Boolean
+let condition: boolean = false;
+
+let assignedValue = condition.valueOf()
+
+console.log('AssignedValue: ', assignedValue);
 
 console.log(greetings);
-// console.log(expNum);
+
+//Advantage of assigning a type to a variable is that it will give you methods of only that datatypes.
 
 export {};
