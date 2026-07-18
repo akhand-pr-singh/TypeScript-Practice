@@ -1,5 +1,7 @@
 console.log('Akhand');
 
-let user = {name:'Akhand', age:29}
+let user:{name:string, age:number} = {name:'Akhand', age:29}
 
-console.log(user.email);
+console.log(user.name);
+
+export {}
